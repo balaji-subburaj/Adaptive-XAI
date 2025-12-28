@@ -1,0 +1,44 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 1028181,
+            "tagId": 12711,
+            "name": "non-synthetic",
+            "value": null,
+            "labelerLogin": "gr@datasetninja.com",
+            "createdAt": "2023-09-03T16:46:31.274Z",
+            "updatedAt": "2023-09-03T16:46:31.274Z"
+        }
+    ],
+    "size": {
+        "height": 1230,
+        "width": 1486
+    },
+    "objects": [
+        {
+            "id": 26802321,
+            "classId": 48701,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "gr@datasetninja.com",
+            "createdAt": "2023-09-03T16:46:31.276Z",
+            "updatedAt": "2023-09-03T16:46:31.276Z",
+            "tags": [],
+            "classTitle": "cow",
+            "points": {
+                "exterior": [
+                    [
+                        260,
+                        470
+                    ],
+                    [
+                        951,
+                        762
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
