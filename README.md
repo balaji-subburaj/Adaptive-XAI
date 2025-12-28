@@ -129,8 +129,7 @@ The source code for this project is currently kept private, as the repository is
 ---
 
 ## Author
-
-Master’s student in Software Engineering  
+Balaji Subburaj
 Focus areas: Computer Vision, Explainable AI, and Uncertainty Estimation
 
 
