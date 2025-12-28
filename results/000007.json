@@ -1,0 +1,41 @@
+{
+  "image": "data\\processed\\images\\val\\000007.jpg",
+  "model": "runs/detect/train3/weights/best.pt",
+  "mc_samples": 15,
+  "dropout_p": 0.25,
+  "hook_layers": 3,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "cow",
+      "conf": 0.9622365832328796,
+      "xyxy": [
+        285.0,
+        454.0,
+        958.0,
+        746.0
+      ],
+      "uncertainty": {
+        "conf_std": 0.2020987719297409,
+        "box_std_mean": 21.13555335998535,
+        "score": 0.4134542942047119
+      }
+    },
+    {
+      "class_id": 0,
+      "class_name": "cow",
+      "conf": 0.70915287733078,
+      "xyxy": [
+        1226.0,
+        247.0,
+        1486.0,
+        623.0
+      ],
+      "uncertainty": {
+        "conf_std": 0.0,
+        "box_std_mean": 0.0,
+        "score": 0.0
+      }
+    }
+  ]
+}

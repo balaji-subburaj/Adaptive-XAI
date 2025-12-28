@@ -1,0 +1,25 @@
+{
+  "image": "data\\processed\\images\\val\\000002.jpg",
+  "model": "runs/detect/train3/weights/best.pt",
+  "mc_samples": 15,
+  "dropout_p": 0.25,
+  "hook_layers": 3,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "cow",
+      "conf": 0.9562497138977051,
+      "xyxy": [
+        267.0,
+        466.0,
+        952.0,
+        760.0
+      ],
+      "uncertainty": {
+        "conf_std": 0.21171802282333374,
+        "box_std_mean": 18.71066665649414,
+        "score": 0.39882469177246094
+      }
+    }
+  ]
+}
