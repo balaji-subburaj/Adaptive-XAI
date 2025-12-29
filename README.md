@@ -3,8 +3,6 @@
 This project was developed as a self-learning and experimentation exercise to explore **explainable artificial intelligence (XAI)** and **uncertainty estimation** in object detection models.  
 The work focuses on cow detection in farm images and aims to understand not only *what* the model predicts, but also *how confident* it is and *which image regions influence each prediction*.
 
-The project was carried out independently after interviews for a student assistant position related to uncertainty-guided XAI, as a way to deepen practical understanding through hands-on implementation.
-
 ---
 
 ## Problem Motivation
@@ -48,18 +46,12 @@ Example input images are provided in: assets/input_examples/
 
 ### Grad-CAM per Detection
 Grad-CAM heatmaps are computed **per detected cow**, not globally for the image.  
-This allows instance-level explanations.
-
-assets/xai_examples/
-
-
+This allows instance-level explanations. assets/xai_examples/
 These heatmaps highlight image regions that most strongly influenced each individual detection.
 
 ### Uncertainty Visualization
 Final images include bounding boxes annotated with uncertainty information derived from MC Dropout sampling.
-
 assets/uncertainty_examples/
-
 
 Each bounding box includes:
 - detection confidence,
@@ -91,8 +83,6 @@ For each image, a structured JSON output is generated containing:
 - uncertainty metrics per detected object.
 
 An example is available in: results/example_output.json
-
-
 ---
 
 ## Learning Outcomes
