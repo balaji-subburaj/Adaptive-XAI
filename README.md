@@ -20,7 +20,7 @@ Therefore, combining **object detection**, **explainability**, and **uncertainty
 
 ## Project Overview
 
-The project consists of three main components:
+This project consists of three main components:
 
 1. **Object Detection**  
    A YOLO-based detector is used to localize cows in images.
